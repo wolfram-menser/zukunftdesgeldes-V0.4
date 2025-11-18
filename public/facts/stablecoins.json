@@ -1,0 +1,35 @@
+[
+  {
+    "id": "stablecoins-t0-001",
+    "title": "T+0-Settlement mit Euro-Stablecoins",
+    "claim": "Euro-Stablecoins ermöglichen T+0-Settlement und reduzieren Gegenparteirisiken in B2B-Zahlungen.",
+    "source_url": "https://www.ecb.europa.eu/press/key/date/2024/html/ecb.sp240315~c3b8e1a8a8.en.html",
+    "source_publisher": "European Central Bank",
+    "date": "2024-03-15",
+    "updated": "2025-01-06",
+    "tags": ["stablecoins", "settlement", "mittelstand", "b2b"],
+    "confidence": "high"
+  },
+  {
+    "id": "stablecoins-cost-002",
+    "title": "Kostenreduktion durch Stablecoin-Zahlungen",
+    "claim": "Stablecoin-basierte Zahlungen können Transaktionskosten um bis zu 80% gegenüber traditionellen grenzüberschreitenden Zahlungen senken.",
+    "source_url": "https://www.bis.org/publ/work1049.htm",
+    "source_publisher": "Bank for International Settlements",
+    "date": "2024-01-20",
+    "updated": "2025-01-06",
+    "tags": ["stablecoins", "kosten", "grenzüberschreitend"],
+    "confidence": "high"
+  },
+  {
+    "id": "stablecoins-programmable-003",
+    "title": "Programmierbarkeit von Stablecoins",
+    "claim": "Programmierbare Stablecoins ermöglichen automatisierte Zahlungsströme in Datenräumen und Manufacturing-X-Szenarien.",
+    "source_url": "https://www.plattform-i40.de/IP/Redaktion/DE/Downloads/Publikation/whitepaper-gaia-x-manufacturing.html",
+    "source_publisher": "Plattform Industrie 4.0",
+    "date": "2023-11-10",
+    "updated": "2025-01-06",
+    "tags": ["stablecoins", "programmierbarkeit", "manufacturing-x", "datenraum"],
+    "confidence": "medium"
+  }
+]

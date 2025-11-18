@@ -1,0 +1,18 @@
+{
+  "title": "Stablecoin-Zahlungen: Benchmark Deutschland → Indien",
+  "slug": "stablecoin-zahlungen-benchmark-indien",
+  "date": "2025-01-08",
+  "author_name": "Wolfram Menser",
+  "tags": ["Stablecoins", "Cross-Border", "Praxis"],
+  "excerpt": "Wir haben klassische Banküberweisung, Fintech-Anbieter und Stablecoin-Rails für eine 50.000 EUR Zahlung nach Indien verglichen. Die Ergebnisse im Detail.",
+  "hero_image_url": "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=1200&q=80",
+  "hero_image_alt": "Internationale Zahlungen und Währungsumrechnung",
+  "content_markdown": "## Benchmark: 50.000 EUR Deutschland → Indien\n\nIm Rahmen unseres Praxisleitfadens haben wir drei Zahlungswege für eine Überweisung von **50.000 EUR** von Deutschland nach Indien verglichen:\n\n### 1. Klassische Banküberweisung (SWIFT)\n\n**Dauer:** T+3 (3 Werktage)\n**Kosten:** ~180 EUR Gebühren + ~2,5% FX-Spread = ca. 1.430 EUR Gesamtkosten\n**Transparenz:** Mittel (SWIFT gpi tracking)\n\n### 2. Fintech-Anbieter (Wise Business)\n\n**Dauer:** Same-day (innerhalb 6 Stunden)\n**Kosten:** ~65 EUR Gebühr + 0,8% FX-Spread = ca. 465 EUR Gesamtkosten\n**Transparenz:** Hoch (Echtzeit-Tracking in App)\n\n### 3. Stablecoin-Rail (Euro-Stablecoin → INR Off-Ramp)\n\n**Dauer:** ~2 Stunden (technisch Minuten, Off-Ramp-abhängig)\n**Kosten:** ~15 EUR Netzwerkgebühr + 0,5% Off-Ramp-Fee = ca. 265 EUR Gesamtkosten\n**Transparenz:** Sehr hoch (On-Chain + Provider-Portal)\n\n### Ergebnis\n\n| Kriterium | Bank | Fintech | Stablecoin |\n|-----------|------|---------|------------|\n| **Zeit** | T+3 | Same-day | ~2h |\n| **Kosten** | 1.430 EUR | 465 EUR | 265 EUR |\n| **Transparenz** | Mittel | Hoch | Sehr hoch |\n\n### Learnings\n\n- **Geschwindigkeit:** Stablecoins bieten das schnellste Settlement\n- **Kosten:** Bis zu 81% Ersparnis gegenüber klassischer Bank\n- **Compliance:** KYC/AML bei allen drei Wegen erforderlich\n- **Providerwahl kritisch:** Qualität des Off-Ramps entscheidend\n\n---\n\n**Mehr Details im vollständigen Leitfaden:**\n[Grenzüberschreitender Zahlungsverkehr: Deutschland → Indien](/anwendungen/grenzzahlungen-indien)",
+  "source_url": null,
+  "draft": false,
+  "seo": {
+    "meta_title": "Stablecoin-Zahlungen Benchmark: Deutschland → Indien",
+    "meta_description": "Praxis-Vergleich: Banküberweisung vs. Fintech vs. Stablecoin für 50.000 EUR Zahlung nach Indien. Zeit, Kosten, Transparenz im Detail.",
+    "og_image_url": "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=1200&q=80"
+  }
+}

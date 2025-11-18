@@ -1,0 +1,17 @@
+{
+  "redirects": [
+    {
+      "source": "/neuigkeiten",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/neuigkeiten/:path*",
+      "destination": "/blog",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}

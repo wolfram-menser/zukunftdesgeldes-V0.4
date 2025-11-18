@@ -1,0 +1,19 @@
+{
+  "nav": {
+    "start": "Home",
+    "wissen": "Knowledge Hub",
+    "usecases": "Use Cases",
+    "integration": "Integration",
+    "blog": "Blog",
+    "newsletter": "Newsletter",
+    "about": "About",
+    "contact": "Contact",
+    "impressum": "Imprint"
+  },
+  "footer": {
+    "copyright": "© The Future of Money"
+  },
+  "common": {
+    "comingSoon": "English content coming soon."
+  }
+}

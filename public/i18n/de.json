@@ -1,0 +1,19 @@
+{
+  "nav": {
+    "start": "Start",
+    "wissen": "Wissenshub",
+    "usecases": "Anwendungsfälle",
+    "integration": "Integration",
+    "blog": "Blog",
+    "newsletter": "Newsletter",
+    "about": "Über mich",
+    "contact": "Kontakt",
+    "impressum": "Impressum"
+  },
+  "footer": {
+    "copyright": "© Die Zukunft des Geldes"
+  },
+  "common": {
+    "comingSoon": "Englische Inhalte folgen in Kürze."
+  }
+}

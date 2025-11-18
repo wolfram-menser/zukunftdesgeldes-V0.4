@@ -1,0 +1,229 @@
+{
+  "last_updated": "2025-11-09",
+  "entries": [
+    {
+      "id": "art",
+      "term": "ART",
+      "long": "Asset-referenzierter Token",
+      "description": "Token mit Bezug auf einen Korb von Vermögenswerten (z. B. Währungen, Anlagen) statt 1:1-Bindung an eine Fiatwährung. Unter MiCAR gelten erhöhte Anforderungen; Transparenz über Zusammensetzung und Risiken ist zentral.",
+      "anchor": "#art",
+      "href": "/wissen/glossar#art"
+    },
+    {
+      "id": "aml",
+      "term": "AML",
+      "long": "Anti-Money Laundering",
+      "description": "Regulatorischer Rahmen zur Verhinderung von Geldwäsche und Terrorismusfinanzierung. Finanzinstitute und On/Off-Ramps identifizieren Kunden, überwachen Transaktionen und melden Auffälligkeiten. Vorgaben beeinflussen Geschwindigkeit, Dokumentationsaufwand und Pfade grenzüberschreitender Zahlungen.",
+      "anchor": "#aml",
+      "href": "/wissen/glossar#aml"
+    },
+    {
+      "id": "awv",
+      "term": "AWV-Meldepflicht",
+      "long": "Außenwirtschaftsverordnung",
+      "description": "Regelt u. a. die Meldepflicht grenzüberschreitender Zahlungen i. d. R. über 12.500 € an die Deutsche Bundesbank. Meldung dient Statistikzwecken; Ausnahmen möglich. Prozesse so gestalten, dass relevante Zahlungen erkannt und fristgerecht elektronisch gemeldet werden.",
+      "anchor": "#awv",
+      "href": "/wissen/glossar#awv"
+    },
+    {
+      "id": "block-explorer",
+      "term": "Block Explorer",
+      "long": "Transaktions-/Block-Viewer",
+      "description": "Online-Werkzeug zur Einsicht von Transaktionen, Adressen und Blöcken. Unterstützt Nachweise (Transaktions-Hashes) und Audits; öffentliche Sichtbarkeit von Adressen beachten.",
+      "anchor": "#block-explorer",
+      "href": "/wissen/glossar#block-explorer"
+    },
+    {
+      "id": "chain-id",
+      "term": "Chain ID & Netzwerkwahl",
+      "long": "Eindeutige Netz-ID & richtige Netzwerkwahl",
+      "description": "Die Chain ID identifiziert ein Blockchain-Netz eindeutig. Falsche Netzwahl kann zum Verlust von Mitteln führen. Nur Netze mit ausreichender Verfügbarkeit, Support und Liquidität nutzen; Netz/Token eindeutig dokumentieren.",
+      "anchor": "#chain-id",
+      "href": "/wissen/glossar#chain-id"
+    },
+    {
+      "id": "emt",
+      "term": "EMT",
+      "long": "E-Money-Token (MiCAR)",
+      "description": "1:1 an eine Fiatwährung gebundener, regulierter Token mit Einlöseanspruch zum Nennwert. Emittiert durch Kredit-/E-Geld-Institute; Reserven, Governance und Berichte sind vorgeschrieben. Typische Kategorie für Euro-Stablecoins.",
+      "anchor": "#emt",
+      "href": "/wissen/glossar#emt"
+    },
+    {
+      "id": "escrow",
+      "term": "Escrow",
+      "long": "Treuhand-Verwahrung (on/off-chain)",
+      "description": "Treuhänderische Verwahrung bis Bedingungen eintreten – on-chain via Smart Contracts oder off-chain durch Treuhänder. Reduziert Gegenparteirisiko und koppelt Zahlungen eng an Liefer-/Leistungsnachweise.",
+      "anchor": "#escrow",
+      "href": "/wissen/glossar#escrow"
+    },
+    {
+      "id": "fema",
+      "term": "FEMA",
+      "long": "Foreign Exchange Management Act",
+      "description": "Indischer Rechtsrahmen für Devisengeschäfte, inklusive Zweckcodes, zulässiger Transaktionen und Dokumentationspflichten. Zahlungen an indische Empfänger müssen korrekt klassifiziert und belegt werden, um Verzögerungen oder Zurückweisungen zu vermeiden.",
+      "anchor": "#fema",
+      "href": "/wissen/glossar#fema"
+    },
+    {
+      "id": "finalitaet",
+      "term": "Finalität",
+      "long": "Settlement Finality",
+      "description": "Zeitpunkt der rechtlich-technischen Unwiderruflichkeit einer Zahlung. Bei Karten sind Chargebacks möglich; bei Überweisungen hängt die Rückrufbarkeit vom Status ab. On-Chain ist Finalität nach Bestätigung erreicht; Korrekturen erfolgen über Gegenbuchungen.",
+      "anchor": "#finalitaet",
+      "href": "/wissen/glossar#finalitaet"
+    },
+    {
+      "id": "gas-fee",
+      "term": "Gas Fee",
+      "long": "Netzwerkgebühr",
+      "description": "Transaktionsgebühr im jeweiligen Blockchain-Netz; abhängig von Auslastung und Komplexität. Für Unternehmen zählt der All-in-Vergleich: Netzwerkgebühr plus Dienstleister-Entgelte und ggf. FX-Spreads.",
+      "anchor": "#gas-fee",
+      "href": "/wissen/glossar#gas-fee"
+    },
+    {
+      "id": "gpi",
+      "term": "SWIFT gpi",
+      "long": "Global Payments Innovation",
+      "description": "Rahmenwerk für schnellere, besser nachverfolgbare grenzüberschreitende Zahlungen im Korrespondenzbankensystem. Einheitliche End-to-End-Referenzen, Status-Tracking, mehr Transparenz bei Gebühren und Laufzeiten.",
+      "anchor": "#gpi",
+      "href": "/wissen/glossar#gpi"
+    },
+    {
+      "id": "hsm",
+      "term": "HSM",
+      "long": "Hardware Security Module",
+      "description": "Manipulationsresistentes Gerät für sichere Schlüsselgenerierung, -speicherung und Signatur. Ermöglicht hochsichere Freigaben und Auditierbarkeit; oft kombiniert mit Rollen-/Freigabekonzepten.",
+      "anchor": "#hsm",
+      "href": "/wissen/glossar#hsm"
+    },
+    {
+      "id": "fx",
+      "term": "FX",
+      "long": "Foreign Exchange",
+      "description": "Währungsumrechnung wie EUR↔INR zu einem Kurs mit Spread zum Referenzkurs. Neben expliziten Gebühren ist der Spread oft größter Kostentreiber. Für Vergleiche zählt der All-in-Kurs (Gebühr + Spread).",
+      "anchor": "#fx",
+      "href": "/wissen/glossar#fx"
+    },
+    {
+      "id": "iso20022",
+      "term": "ISO 20022",
+      "long": "Financial messaging standard (ISO 20022)",
+      "description": "Moderner Standard, der ältere MT-Formate ablöst und strukturierte Zahlungsdaten ermöglicht. Verbessert Abstimmung, Automatisierung und Nachverfolgbarkeit, insbesondere im Cross-Border-Kontext.",
+      "anchor": "#iso20022",
+      "href": "/wissen/glossar#iso20022"
+    },
+    {
+      "id": "kyc",
+      "term": "KYC",
+      "long": "Know Your Customer",
+      "description": "Identifizierung von Kunden und wirtschaftlich Berechtigten sowie Abgleich gegen Sanktions-/PEP-Listen. Je nach Risiko sind Aktualisierungen und Zusatzunterlagen erforderlich; ohne vollständiges KYC sind Limits/On-Ramps eingeschränkt.",
+      "anchor": "#kyc",
+      "href": "/wissen/glossar#kyc"
+    },
+    {
+      "id": "mpc",
+      "term": "MPC",
+      "long": "Multi-Party Computation",
+      "description": "Schlüsselmacht wird auf Anteile verteilt; Signaturen entstehen gemeinsam ohne vollständigen Schlüssel an einer Stelle. Reduziert Single-Point-of-Failure und ermöglicht flexible Policies; Governance bleibt zentral.",
+      "anchor": "#mpc",
+      "href": "/wissen/glossar#mpc"
+    },
+    {
+      "id": "multisig",
+      "term": "Multisig",
+      "long": "Mehrfachsignatur (M-von-N)",
+      "description": "Erfordert mehrere Signaturen zur Freigabe (M-von-N). Einfaches Sicherheitsprinzip, je nach Blockchain nativ oder per Smart Contract. Parameterwahl ist sicherheits- und betriebsrelevant.",
+      "anchor": "#multisig",
+      "href": "/wissen/glossar#multisig"
+    },
+    {
+      "id": "neft-rtgs-imps",
+      "term": "NEFT / RTGS / IMPS",
+      "long": "Indian payment rails (NEFT, RTGS, IMPS)",
+      "description": "NEFT verarbeitet Überweisungen in Batches; Gutschriften erfolgen innerhalb der Betriebsfenster. RTGS ist für größere Beträge gedacht und bietet Echtzeit-Bruttofinalität. IMPS ermöglicht meist 24/7 Echtzeit-Zahlungen und wird häufig für kleinere Beträge genutzt.",
+      "anchor": "#neft-rtgs-imps",
+      "href": "/wissen/glossar#neft-rtgs-imps"
+    },
+    {
+      "id": "nostro-vostro",
+      "term": "Nostro/Vostro",
+      "long": "Correspondent banking accounts",
+      "description": "Gegenseitige Konten von Banken ohne direkte Beziehung. Nostro = „unser Konto bei euch", Vostro = „euer Konto bei uns". Sie prägen Laufzeiten, Gebühren und Transparenz in Korrespondenzketten.",
+      "anchor": "#nostro-vostro",
+      "href": "/wissen/glossar#nostro-vostro"
+    },
+    {
+      "id": "on-off-ramp",
+      "term": "On-/Off-Ramp",
+      "long": "Fiat ↔︎ Token conversion gateway",
+      "description": "On-Ramps tauschen FIAT in Token (z. B. Stablecoins), Off-Ramps umgekehrt Token in FIAT. Qualität zeigt sich in KYC/AML, Liquidität, Gebühren, lokaler Regulierung und Zuverlässigkeit der Auszahlungen.",
+      "anchor": "#on-off-ramp",
+      "href": "/wissen/glossar#on-off-ramp"
+    },
+    {
+      "id": "our-sha-ben",
+      "term": "OUR / SHA / BEN",
+      "long": "Fee-sharing options for cross-border payments",
+      "description": "OUR: Absender trägt alle Entgelte; SHA: Gebühren werden geteilt; BEN: Empfänger trägt Entgelte. Die Wahl beeinflusst Netto-Gutschrift und mitunter den Abwicklungsweg über Zwischenbanken.",
+      "anchor": "#our-sha-ben",
+      "href": "/wissen/glossar#our-sha-ben"
+    },
+    {
+      "id": "proof-of-reserves",
+      "term": "Proof of Reserves",
+      "long": "Reservenachweis (Attest)",
+      "description": "Nachweise, dass Reserven in ausreichender Höhe gehalten werden (oft zeitpunktbezogene Atteste). Ohne Verbindlichkeitsnachweis sind Aussagen begrenzt. Wichtig sind Prüfungsstandard, Häufigkeit und Unabhängigkeit.",
+      "anchor": "#proof-of-reserves",
+      "href": "/wissen/glossar#proof-of-reserves"
+    },
+    {
+      "id": "sepa-instant",
+      "term": "SEPA Instant",
+      "long": "SEPA Instant Credit Transfer (SCT Inst)",
+      "description": "Echtzeit-Überweisung im Euro-Raum. Gutschrift in Sekunden; Limits und Erreichbarkeit bankabhängig. Erleichtert schnelle Konto-Konsolidierung und On-/Off-Ramp-Prozesse.",
+      "anchor": "#sepa-instant",
+      "href": "/wissen/glossar#sepa-instant"
+    },
+    {
+      "id": "stablecoin",
+      "term": "Stablecoin",
+      "long": "Price-stabilized token (fiat-referenced)",
+      "description": "Digitale Token mit Wertbezug zu einer Fiat-Währung (z. B. EUR, USD). Vorteile: 24/7-Verfügbarkeit, schnelle Finalität, Programmierbarkeit. Qualität hängt von Emittent, Reserve/Regulierung und Netzwerk-Risiken ab.",
+      "anchor": "#stablecoin",
+      "href": "/wissen/glossar#stablecoin"
+    },
+    {
+      "id": "swift",
+      "term": "SWIFT",
+      "long": "Society for Worldwide Interbank Financial Telecommunication",
+      "description": "Globales Netzwerk/Standard für sichere Finanz-Nachrichten; bewegt selbst kein Geld. Mit GPI wurde Tracking/Transparenz grenzüberschreitender Zahlungen verbessert.",
+      "anchor": "#swift",
+      "href": "/wissen/glossar#swift"
+    },
+    {
+      "id": "t-plus-0",
+      "term": "T+0 / T+1 / T+2",
+      "long": "Settlement date relative to trade date (T)",
+      "description": "Bezeichnet die Wertstellung relativ zum Transaktionstag T: T+0 taggleich, T+1/T+2 an Folge-/übernächstem Geschäftstag. Relevant für Cashflow, Skonti und Risikosteuerung.",
+      "anchor": "#t-plus-0",
+      "href": "/wissen/glossar#t-plus-0"
+    },
+    {
+      "id": "travel-rule",
+      "term": "Travel Rule",
+      "long": "Pflicht zum Datentransfer (VASPs)",
+      "description": "Dienstleister müssen Absender-/Empfängerdaten bei Transfers mitführen und prüfen (FATF-Rahmen, in der EU mit TFR verzahnt). Relevante Daten und sichere Übermittlung mit Anbietern klären.",
+      "anchor": "#travel-rule",
+      "href": "/wissen/glossar#travel-rule"
+    },
+    {
+      "id": "wallet",
+      "term": "Wallet",
+      "long": "Private-Key-Wallet (Schlüsselverwaltung)",
+      "description": "Software oder Hardware zur Verwaltung privater Schlüssel; signiert Transaktionen, Tokens bleiben on-chain. Unterscheidung zwischen Self-Custody und Custodial-Lösungen; Hot- vs. Cold-Wallets je nach Sicherheits-/Komfortbedarf. Wichtige Kontrollen: Rollen/Freigaben, Recovery, Whitelists, Protokollierung.",
+      "anchor": "#wallet",
+      "href": "/wissen/glossar#wallet"
+    }
+  ]
+}

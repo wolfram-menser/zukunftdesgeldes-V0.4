@@ -1,0 +1,59 @@
+/* ===== THEME SYSTEM ===== */
+/* TODO: Bei finalem CI/CD die !important-Mappings schrittweise in Komponenten verlagern. */
+/* Ermöglicht Farbschema-Switching via data-theme="sky" */
+
+[data-theme="sky"] {
+  --brand-primary: #05668D;
+  --brand-primary-600: #045A7F;
+  --brand-primary-400: #427AA1;
+  --brand-surface: #EBF2FA;
+  --brand-accent: #A5BE00;
+  --brand-success: #679436;
+  --brand-text: #0F172A;
+  --brand-muted: #475569;
+}
+
+/* ==== SKY THEME – Sichtbare Mappings für Standard-Utilities ==== */
+/* SKY-Selektoren zusätzlich auf body.theme-sky spiegeln */
+html[data-theme="sky"] body,
+body.theme-sky {
+  background-color: var(--brand-surface, #EBF2FA) !important;
+  color: var(--brand-text, #0F172A) !important;
+}
+
+html[data-theme="sky"] a,
+body.theme-sky a {
+  color: var(--brand-primary, #05668D) !important;
+  outline-color: var(--brand-primary, #05668D) !important;
+  text-decoration-thickness: 1.5px;
+}
+
+/* Hero/Header */
+html[data-theme="sky"] header,
+html[data-theme="sky"] .hero,
+html[data-theme="sky"] [data-hero],
+html[data-theme="sky"] main section:first-of-type,
+body.theme-sky header,
+body.theme-sky .hero,
+body.theme-sky [data-hero],
+body.theme-sky main section:first-of-type {
+  background: linear-gradient(135deg, var(--brand-primary, #05668D), var(--brand-primary-400, #427AA1)) !important;
+  color: #fff !important;
+}
+
+/* Cards/Kacheln */
+html[data-theme="sky"] .card,
+html[data-theme="sky"] [data-card],
+body.theme-sky .card,
+body.theme-sky [data-card] {
+  background: var(--brand-surface, #EBF2FA) !important;
+  border: 1px solid color-mix(in oklab, var(--brand-muted, #475569) 25%, white) !important;
+  color: var(--brand-text, #0F172A) !important;
+}
+
+/* Buttons & Divider */
+[data-theme="sky"] .bg-primary-600 { background-color: var(--brand-primary, #05668D) !important; color:#fff !important; }
+[data-theme="sky"] .hover\:bg-primary-700:hover { background-color: var(--brand-primary-600, #045A7F) !important; }
+[data-theme="sky"] .border-neutral-200 {
+  border-color: color-mix(in oklab, var(--brand-muted, #475569) 25%, white) !important;
+}

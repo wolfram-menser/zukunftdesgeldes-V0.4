@@ -1,0 +1,18 @@
+{
+  "title": "JPM Coin startet als USD-Deposit-Token auf Base",
+  "slug": "jpm-coin-deposit-token-base",
+  "date": "2025-11-12",
+  "author_name": "Wolfram Menser",
+  "tags": ["Deposit Token", "JPM Coin", "On-Chain Payments", "Base", "Institutionell"],
+  "excerpt": "J.P. Morgan bringt mit „JPM Coin" (JPMD) einen USD-Deposit-Token für institutionelle Kunden auf die öffentliche Blockchain Base. Ziel: nahezu sofortige 24/7-Zahlungen und On-Chain-Abwicklung.",
+  "hero_image_url": "",
+  "hero_image_alt": "",
+  "content_markdown": "## Überblick\nJ.P. Morgan hat **JPM Coin (Ticker: JPMD)** als **USD-Deposit-Token** für **institutionelle Kunden** gestartet. Der Token repräsentiert bestehende USD-Bankeinlagen und ermöglicht **nahezu sofortige, 24/7 verfügbare On-Chain-Zahlungen** auf der öffentlichen **Base**-Blockchain (Ethereum L2).\n\n## Was ist neu?\n- **Öffentliche Blockchain:** Einsatz auf **Base** statt rein privater/permissioned Umgebungen.  \n- **Deposit-Token, kein klassischer Stablecoin:** JPMD ist ein **digitaler Anspruch auf Bankeinlagen** bei J.P. Morgan.  \n- **Zielbild:** Schnellere Abwicklung, niedrigere Kosten, programmierbare Workflows.\n\n## Technische Eckpunkte (kurz)\n- **Netzwerk:** Base (Ethereum Layer-2)  \n- **Verfügbarkeit:** 24/7, nahezu Echtzeit-Settlement  \n- **Adressierung:** Institutionelle Teilnehmer (KYC/KYB)  \n- **Erweiterbarkeit:** Perspektivisch Multi-Asset/mehrere Netze möglich\n\n## Einordnung\nFür Unternehmen signalisiert JPMD die **Operationalisierung von Deposit-Tokens** auf **öffentlicher Infrastruktur**. Damit werden **programmierbare Zahlungen**, **T+0-Settlement** und **automatisierbare Treasury-Prozesse** realistischer – zunächst im **B2B/Institutional**-Kontext.\n\n## Was bedeutet das für den Mittelstand?\n- **Kosten & Tempo:** Potenzial für **niedrigere Transaktionskosten** und **schnellere Zahlungseingänge**.  \n- **Programmierung:** Meilensteine (z. B. Lieferung/Service-Events) können **Zahlungen automatisch** auslösen.  \n- **ERP-Anbindung:** Relevanz für **Erlös-/Kreditorenbuchungen**, **Abstimmung** und **Cash-Forecast**; KYC/Compliance bleiben Pflicht.  \n- **Roadmap-Gedanke:** Heute „Institutionell", morgen **Partner-/Lieferantennetzwerke** – Abhängigkeit von beteiligten Banken beachten.\n\n---\n*(Unten folgt automatisch der Abschnitt „Quelle:" mit anklickbarem Link.)*",
+  "source_url": "https://www.jpmorgan.com/payments/newsroom/jpm-coin-usd-deposit-token-institutional-clients",
+  "draft": false,
+  "seo": {
+    "meta_title": "JPM Coin: USD-Deposit-Token auf Base (12.11.2025)",
+    "meta_description": "JPM Coin (JPMD) ist ein USD-Deposit-Token für institutionelle Zahlungen auf Base. Einordnung für den Mittelstand: Kosten, Settlement, ERP-Integration.",
+    "og_image_url": ""
+  }
+}

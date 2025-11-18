@@ -1,0 +1,45 @@
+{
+  "topic": "Cross-border payment DE→IN",
+  "corridor": "Germany→India",
+  "amount_eur": 50000,
+  "last_updated": "2025-10-26",
+  "claims": [
+    {
+      "id": "speed_swift_typical",
+      "statement": "Klassische Auslandsüberweisungen über SWIFT benötigen häufig T+2 bis T+5 Kalendertage bis zur finalen Gutschrift.",
+      "metric": "settlement_time",
+      "value_range": "T+2–T+5",
+      "unit": "days",
+      "evidence": "Korrespondenzbanken, Zeitzonen, Compliance-Checks, lokale Wertstellung.",
+      "source": "Bank-/SWIFT-Dokumentation; Praxisangaben",
+      "confidence": "medium"
+    },
+    {
+      "id": "speed_fintech",
+      "statement": "Fintech-Netzwerke (lokale Ein-/Auszahlung) erreichen häufig same-day bis wenige Stunden.",
+      "metric": "settlement_time",
+      "value_range": "minutes–same-day",
+      "unit": "hours",
+      "source": "Wise Business & vergleichbare Anbieter-Dokumentation",
+      "confidence": "medium"
+    },
+    {
+      "id": "speed_onchain",
+      "statement": "Stablecoin-basierte Zahlungen können technisch innerhalb von Minuten final übertragen werden; Auszahlung in INR hängt von Off-Ramp-Provider-Regeln ab.",
+      "metric": "settlement_time",
+      "value": "minutes",
+      "unit": "minutes",
+      "source": "On-Chain-Transaktionsdaten; Provider-Policies",
+      "confidence": "medium"
+    },
+    {
+      "id": "awv_threshold",
+      "statement": "In Deutschland besteht für grenzüberschreitende Zahlungen grundsätzlich eine AWV-Meldepflicht ab 12.500 €.",
+      "metric": "threshold",
+      "value": 12500,
+      "unit": "EUR",
+      "source": "Deutsche Bundesbank – AWV-Hinweise",
+      "confidence": "high"
+    }
+  ]
+}

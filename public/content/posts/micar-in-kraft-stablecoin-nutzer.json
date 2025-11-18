@@ -1,0 +1,18 @@
+{
+  "title": "MiCAR in Kraft: Was sich für Stablecoin-Nutzer ändert",
+  "slug": "micar-in-kraft-stablecoin-nutzer",
+  "date": "2025-01-09",
+  "author_name": "Wolfram Menser",
+  "tags": ["Regulierung", "MiCAR", "Stablecoins"],
+  "excerpt": "Mit dem Inkrafttreten von MiCAR am 30. Dezember 2024 gelten neue Regeln für Stablecoin-Emittenten und Dienstleister. Was bedeutet das für Unternehmen im Mittelstand?",
+  "hero_image_url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1200&q=80",
+  "hero_image_alt": "Regulierungsdokumente auf einem Schreibtisch",
+  "content_markdown": "## MiCAR-Regelungen ab 30. Dezember 2024\n\nDie **Markets in Crypto-Assets Regulation (MiCAR)** ist seit dem 30. Dezember 2024 in der gesamten EU anwendbar. Für Stablecoin-Emittenten und Krypto-Dienstleister bedeutet dies:\n\n### Lizenzpflicht\n\nAlle Emittenten von **E-Money-Tokens (EMT)** und **Asset-Referenced Tokens (ART)** benötigen eine Lizenz der nationalen Aufsichtsbehörde (in Deutschland: BaFin). Bestehende Anbieter hatten Übergangsfristen, die nun ausgelaufen sind.\n\n### Reserveanforderungen\n\nEmittenten müssen ausreichende Reserven in liquiden, sicheren Assets vorhalten – mindestens 30% in Einlagen bei Kreditinstituten. Die Reserven werden täglich veröffentlicht.\n\n### Was bedeutet das für Unternehmen?\n\n- **Mehr Rechtssicherheit:** Klare Regeln für die Nutzung von Stablecoins im B2B-Kontext\n- **Vertrauen in Anbieter:** Lizenzierte Emittenten wurden von BaFin geprüft\n- **Compliance-Aufwand:** Auch als Nutzer müssen Unternehmen KYC-Prozesse durchlaufen\n\n### Nächste Schritte\n\nÜberprüfen Sie, ob Ihre Stablecoin-Anbieter eine MiCAR-Lizenz besitzen. Die BaFin führt eine öffentliche Liste lizenzierter Anbieter.\n\n---\n\n**Weitere Informationen:**\n- [BaFin: MiCAR-Umsetzung](https://www.bafin.de)\n- [EU-Kommission: MiCAR Official Text](https://eur-lex.europa.eu)",
+  "source_url": "https://www.bafin.de/DE/Aufsicht/FinTech/Kryptoassets/kryptoassets_node.html",
+  "draft": false,
+  "seo": {
+    "meta_title": "MiCAR in Kraft: Was sich für Stablecoin-Nutzer ändert",
+    "meta_description": "MiCAR-Regelungen für Stablecoins gelten ab 30.12.2024. Was Unternehmen jetzt wissen müssen: Lizenzpflicht, Reserven, Compliance.",
+    "og_image_url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1200&q=80"
+  }
+}

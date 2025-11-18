@@ -1,0 +1,59 @@
+[data-theme="sky"] .hero,
+[data-theme="sky"] [data-hero],
+[data-theme="sky"] header,
+[data-theme="sky"] section[aria-label*="Hero" i]{
+  background: linear-gradient(135deg, var(--brand-primary), var(--brand-primary-400));
+  color:#fff;
+}
+[data-theme="sky"] .card,
+[data-theme="sky"] [data-card]{
+  background: var(--brand-surface);
+  border: 1px solid color-mix(in oklab, var(--brand-muted) 15%, white);
+  color: var(--brand-text);
+}
+
+/* === SKY THEME – sichtbare Farbzuordnung für häufige Tailwind-Klassen === */
+[data-theme="sky"] a{
+  color: var(--brand-primary) !important;
+  outline-color: var(--brand-primary) !important;
+}
+
+/* Hintergründe */
+[data-theme="sky"] .bg-white,
+[data-theme="sky"] .bg-neutral-50{
+  background-color: var(--brand-surface) !important; /* #EBF2FA */
+}
+[data-theme="sky"] .bg-primary-50{
+  background-color: color-mix(in oklab, var(--brand-primary) 8%, white) !important;
+}
+[data-theme="sky"] .bg-primary-600{
+  background-color: var(--brand-primary) !important;   /* #05668D */
+}
+
+/* Textfarben */
+[data-theme="sky"] .text-neutral-900{ color: var(--brand-text) !important; }   /* #0F172A */
+[data-theme="sky"] .text-primary-600{ color: var(--brand-primary) !important; }
+[data-theme="sky"] .hover\:text-primary-700:hover{ color: var(--brand-primary-600) !important; }
+
+/* Rahmen/Divider */
+[data-theme="sky"] .border-neutral-200{
+  border-color: color-mix(in oklab, var(--brand-muted) 25%, white) !important;
+}
+
+/* Buttons (Beispiele) */
+[data-theme="sky"] .hover\:bg-primary-700:hover{
+  background-color: var(--brand-primary-600) !important;
+}
+
+/* Callouts auf Markenfarben mappen */
+[data-theme="sky"] .border-blue-200{   border-color: var(--brand-primary-400) !important; }
+[data-theme="sky"] .bg-blue-50{        background-color: color-mix(in oklab, var(--brand-primary) 8%, white) !important; }
+[data-theme="sky"] .text-blue-900{     color: var(--brand-primary-600) !important; }
+
+[data-theme="sky"] .border-amber-200{  border-color: var(--brand-accent) !important; }      /* #A5BE00 */
+[data-theme="sky"] .bg-amber-50{       background-color: color-mix(in oklab, var(--brand-accent) 12%, white) !important; }
+[data-theme="sky"] .text-amber-900{    color: color-mix(in oklab, var(--brand-accent) 40%, black) !important; }
+
+[data-theme="sky"] .border-emerald-200{ border-color: var(--brand-success) !important; }     /* #679436 */
+[data-theme="sky"] .bg-emerald-50{      background-color: color-mix(in oklab, var(--brand-success) 12%, white) !important; }
+[data-theme="sky"] .text-emerald-900{   color: color-mix(in oklab, var(--brand-success) 45%, black) !important; }

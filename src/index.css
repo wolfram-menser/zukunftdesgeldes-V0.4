@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+
+:root { 
+  color-scheme: light; 
+}
+
+body { 
+  @apply bg-white text-neutral-900;
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* ===== GLOBAL LAYOUT: site-shell ===== */
+/* Desktop/Laptop (≥1024px): 80% mittig, je 10% Rand links/rechts */
+@media (min-width: 1024px) {
+  .site-shell {
+    width: 80%;
+    margin: 0 10%;
+    box-sizing: border-box;
+    padding-inline: 0;
+  }
+}
+
+/* Tablet/Mobile (<1024px): 100vw, minimal padding */
+@media (max-width: 1023.98px) {
+  .site-shell {
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    padding-inline: 12px;
+  }
+}
+
+/* Full-Bleed-Option für Hero/Banner */
+.site-shell.full-bleed {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+/* Fließtext max-width (NUR auf .article-content, nicht site-shell) */
+.article-content, .prose {
+  max-width: 72ch;
+}
+
+/* ===== SKELETON LOADER ===== */
+.skel {
+  position: relative;
+  overflow: hidden;
+  background: #f2f4f7;
+  border-radius: 8px;
+}
+
+.skel::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  transform: translateX(-100%);
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.35), transparent);
+  animation: shimmer 1.2s infinite;
+}
+
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+/* ===== TYPOGRAFIE ===== */
+
+/* Überschriften */
+h1, .text-4xl, .text-5xl {
+  font-size: 36px !important;
+  line-height: 42px !important;
+  font-weight: 600 !important;
+  margin-top: 0 !important;
+  margin-bottom: 16px !important;
+}
+
+h2, .text-2xl, .text-3xl {
+  font-size: 28px !important;
+  line-height: 34px !important;
+  font-weight: 600 !important;
+  margin-top: 32px !important;
+  margin-bottom: 12px !important;
+}
+
+h3, .text-xl {
+  font-size: 22px !important;
+  line-height: 28px !important;
+  font-weight: 600 !important;
+  margin-top: 24px !important;
+  margin-bottom: 8px !important;
+}
+
+/* Absätze */
+p {
+  margin: 0 0 12px !important;
+  font-size: 18px !important;
+  line-height: 1.6 !important;
+}
+
+/* Listen */
+ul, ol {
+  padding-left: 20px !important;
+  margin: 0 0 12px !important;
+}
+
+li {
+  margin-bottom: 6px !important;
+  font-size: 18px !important;
+  line-height: 1.6 !important;
+}
+
+/* Bullet-Größe = Body, nicht größer als h3 */
+ul li::marker, ol li::marker {
+  font-size: 18px !important;
+}
+
+/* Links */
+a {
+  color: #0ea5e9;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:focus {
+  outline: 2px solid #0ea5e9;
+  outline-offset: 2px;
+}
+
+/* Bilder */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Responsive: Ab 768px gleiche Größen, nur Layout-Anpassungen */
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+
+/* ===== GLOBAL TABLE STYLES ===== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px 12px;
+  border: 1px solid #e6e6e6;
+  vertical-align: top;
+  font-size: 18px !important;
+  line-height: 1.6 !important;
+}
+
+thead th {
+  background: #fafafa;
+  font-weight: 600;
+  text-align: left;
+}
+
+tbody tr:nth-child(even) {
+  background: #fcfcfc;
+}
+
+/* Responsive table wrapper */
+.table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin-bottom: 12px;
+}
+
+/* ===== THEME PREVIEW: data-theme="sky" ===== */
+[data-theme="sky"] .hero {
+  background: linear-gradient(135deg, var(--brand-primary), var(--brand-primary-400));
+  color: #fff;
+}
+
+[data-theme="sky"] .card {
+  background: var(--brand-surface);
+  border: 1px solid color-mix(in oklab, var(--brand-muted) 15%, white);
+  color: var(--brand-text);
+}
+
+/* ===== SETTINGS MENU (Zahnrad) ===== */
+.settings-root{ position: relative; }
+.settings-btn{
+  display:inline-flex; align-items:center; justify-content:center;
+  width:36px; height:36px; border-radius:9999px;
+  border:1px solid rgba(0,0,0,.08); background:#fff; cursor:pointer;
+  color:#0F172A; box-shadow:0 4px 14px rgba(0,0,0,.1);
+}
+.settings-btn:hover{ filter:brightness(0.97); }
+.settings-menu{
+  position:absolute; right:0; top:44px; z-index: 2147483647;
+  min-width: 240px; padding:12px; border-radius:12px; background:#fff;
+  border:1px solid rgba(0,0,0,.08); box-shadow:0 12px 30px rgba(0,0,0,.15);
+}
+.settings-title{ font-weight:600; margin-bottom:6px; }
+.settings-section + .settings-section{ margin-top:12px; }
+.settings-hint{ font-size:12px; color:#475569; margin-top:6px; }
+
+/* ===== SITE BANNER (EN-Hinweis) ===== */
+.site-banner{
+  position: sticky; top: 0; z-index: 2147483646;
+  display: flex; justify-content: center; align-items: center; gap: 12px;
+  padding: 10px 12px; font-weight: 500;
+  background: color-mix(in oklab, var(--brand-primary, #05668D) 15%, white);
+  color: var(--brand-text, #0F172A);
+  border-bottom: 1px solid rgba(0,0,0,.08);
+}
+.site-banner button{
+  border: 0; background: transparent; cursor: pointer; font-size: 18px; line-height: 1;
+}
+
+/* Menü-Typo analog Header-Navigation (ca. 16px) */
+.settings-menu{ font-size: 18px; min-width: 260px; }
+.settings-row + .settings-row{ margin-top: 12px; }
+.settings-label{ font-weight: 600; margin-bottom: 6px; }
+
+.segmented{ display:flex; gap:6px; }
+.segmented-btn{
+  padding: 6px 10px; border-radius: 8px; border: 1px solid rgba(0,0,0,.08);
+  background: #fff; cursor: pointer; font-weight: 500;
+  font-size: 16px;
+}
+.segmented-btn.is-active{
+  background: color-mix(in oklab, var(--brand-primary, #05668D) 15%, white);
+  border-color: var(--brand-primary, #05668D);
+  color: var(--brand-text, #0F172A);
+}
+
+@import './styles/theme.css';
+
+@tailwind utilities;
+
+.theme-switcher{ 
+  z-index: 2147483647 !important;
+  position: fixed; right: 16px; bottom: 16px;
+}
