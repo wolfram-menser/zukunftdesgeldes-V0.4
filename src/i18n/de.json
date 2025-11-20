@@ -1,0 +1,26 @@
+{
+  "site": {
+    "title": "Zukunft des Geldes",
+    "tagline": "Wissenshub für digitale Währungen (B2B)"
+  },
+  "nav": {
+    "home": "Start",
+    "blog": "Blog",
+    "about": "Über uns",
+    "contact": "Kontakt"
+  },
+  "common": {
+    "read_more": "Weiterlesen",
+    "back": "Zurück",
+    "language": "Sprache"
+  },
+  "blog": {
+    "latest": "Neueste Beiträge",
+    "read_time": "{{minutes}} min Lesezeit",
+    "tags": "Tags"
+  },
+  "errors": {
+    "not_found": "Seite nicht gefunden",
+    "internal": "Interner Fehler"
+  }
+}

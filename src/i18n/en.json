@@ -1,0 +1,26 @@
+{
+  "site": {
+    "title": "Future of Money",
+    "tagline": "Knowledge hub for digital currencies (B2B)"
+  },
+  "nav": {
+    "home": "Home",
+    "blog": "Blog",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "common": {
+    "read_more": "Read more",
+    "back": "Back",
+    "language": "Language"
+  },
+  "blog": {
+    "latest": "Latest posts",
+    "read_time": "{{minutes}} min read",
+    "tags": "Tags"
+  },
+  "errors": {
+    "not_found": "Page not found",
+    "internal": "Internal error"
+  }
+}
